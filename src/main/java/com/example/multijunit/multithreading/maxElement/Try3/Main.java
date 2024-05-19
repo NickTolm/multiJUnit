@@ -41,18 +41,5 @@ public class Main {
         System.out.println("single: " + timer2.getTime());
 
         listSearcher.shutdown();
-
-//        List<Integer> list = new ArrayList<>();
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Введите список чисел через пробел");
-//        String str = scanner.nextLine();
-//        for (String s : str.split("\\s")) {
-//            list.add(Integer.parseInt(s));
-//        }
-//
-//        System.out.println("Введите количество потоков");
-//        int threadCount = scanner.nextInt();
-//        List<Integer> list = new ArrayList<>();
-//        int threadCount = 10;
     }
 }
