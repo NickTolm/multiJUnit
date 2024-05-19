@@ -4,12 +4,9 @@ package com.example.multijunit.multithreading.maxElement.Try3;
 import com.example.multijunit.timer.Timer;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
-import static java.lang.Math.ceil;
-import static java.lang.Math.floor;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException, ExecutionException {
